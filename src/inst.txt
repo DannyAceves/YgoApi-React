@@ -1,0 +1,9 @@
+Yarn create vite
+
+Yarn para agregrar dependencias
+
+
+Yarn dev para correr proyecto
+
+
+Yarn add react-router-dom
