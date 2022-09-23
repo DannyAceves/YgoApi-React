@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import  {Home}  from "./components/Home";
-import  {Carta}  from "./components/Carta";
-import Navbar from "./components/Navbar";
-import { Cards }  from "./components/Cards";
-
+import  {Home}  from "./pages/Home";
+import  {Carta}  from "./components/Cartas/Carta";
+import {Navbar} from "./components/Navbar/Navbar";
 
 
 export const App = () => {

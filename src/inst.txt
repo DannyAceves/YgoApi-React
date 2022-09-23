@@ -1,9 +1,27 @@
-Yarn create vite
+Crear entorno del proyecto
+-Yarn create vite
 
-Yarn para agregrar dependencias
+Agregar dependencias:
+-Yarn
 
+Intalar bootstrap o solo agregar el url
+-Yarn add bootstrap
+
+
+Intalar Json server
+-Yarn add json-server --save-dev
+
+Instalar axios
+- Yarn add axios 
+
+Instalar ReactRouterDom
+-Yarn add react-router-dom
+
+Instalar ReactPagination
+-Yarn add react-pagination
 
 Yarn dev para correr proyecto
 
+En el package.json se modifica y se pone el siguiente script"
+"server" : "json-server -p'nuestro puerto donde corre el proyecto + 1' --watch cardinfo.json"
 
-Yarn add react-router-dom
