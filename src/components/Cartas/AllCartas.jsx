@@ -26,7 +26,7 @@ export const AllCartas = () => {
                     //.slice(firtsPostIndex, lastPostIndex)
                     .map(carta => (
                         <div key={carta.id} className='container'>
-                            <div k className="list-group card mb-3 text-center" style={{maxwidth: "540px"}}>
+                            <div className="list-group card mb-3 text-center" style={{maxwidth: "540px"}}>
                                 <div className="row g-0 text-center">
                                     <div className="col-md-4">
                                         <a href={`/Carta/${carta.id}`}>
