@@ -9,24 +9,23 @@ export const AllCartas = () => {
     //Constantes de Páginacion
     const [currentPage, setCurrentPage] = useState(1);
 
-    
-    const [postPerPage, setPostPerPage] = useState(10);
+    const [postPerPage, setPostPerPage] = useState();
 
 
     useEffect(() => {
         allCards(setCartas)
     }, [])
 
-    const lastPostIndex = currentPage * postPerPage;
-    const firtsPostIndex = lastPostIndex - postPerPage;
+    //const lastPostIndex = currentPage * postPerPage;
+    //const firtsPostIndex = lastPostIndex - postPerPage;
 
     return (
         <>
             {cartas != null ? (
                 cartas
-                    .slice(firtsPostIndex, lastPostIndex)
+                    //.slice(firtsPostIndex, lastPostIndex)
                     .map(carta => (
-                        <div ey={carta.id} className='container'>
+                        <div key={carta.id} className='container'>
                             <div k className="list-group card mb-3 text-center" style={{maxwidth: "540px"}}>
                                 <div className="row g-0 text-center">
                                     <div className="col-md-4">
