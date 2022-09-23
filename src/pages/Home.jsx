@@ -6,7 +6,7 @@ export const Home = () => {
 
 
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid text-center'>
             <h1 className="title center">Cards</h1>
 
             <AllCartas />

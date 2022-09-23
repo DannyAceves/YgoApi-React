@@ -38,6 +38,12 @@ In the project directory, you can run:
 
 ### `yarn start` || `yarn dev`
 
+
+IMPORTANT for we can charge the json db we need run the local server of the JSON, in the project directory, 
+you can open other terminal an type run:
+
+### `yarn server`
+
 Runs the app in the development mode.\
 Open [http://localhost:3000] || (http://localhost:5174) to view it in the browser.
 

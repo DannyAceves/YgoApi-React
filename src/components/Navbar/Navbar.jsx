@@ -9,6 +9,12 @@ export const Navbar = ({ brand }) => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
+                        <div className="navbar-nav">
+                            <a className="nav-link active" aria-current="page" href="/">Cartas</a>
+                        </div>            
+
+
+
                     <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn btn-outline-success" type="submit">Search</button>
