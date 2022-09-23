@@ -7,7 +7,6 @@ Agregar dependencias:
 Intalar bootstrap o solo agregar el url
 -Yarn add bootstrap
 
-
 Intalar Json server
 -Yarn add json-server --save-dev
 
