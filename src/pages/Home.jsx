@@ -9,10 +9,8 @@ export const Home = () => {
         <div className='container-fluid'>
             <h1 className="title center">Cards</h1>
 
-            <button>Prev</button>
-            <button>Next</button>
             <AllCartas />
-            {/*<Paginations /> */}
+            {/*<Paginations />*/}
         </div>
     )
 }

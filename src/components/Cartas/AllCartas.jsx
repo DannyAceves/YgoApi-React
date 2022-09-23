@@ -9,7 +9,7 @@ export const AllCartas = () => {
     //Constantes de Páginacion
     const [currentPage, setCurrentPage] = useState(1);
 
-    console.log(currentPage)
+    
     const [postPerPage, setPostPerPage] = useState(10);
 
 
