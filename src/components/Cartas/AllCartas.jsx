@@ -9,15 +9,15 @@ export const AllCartas = () => {
     //Constantes de Páginacion
     const [currentPage, setCurrentPage] = useState(1);
 
-    const [postPerPage, setPostPerPage] = useState(100);
+    const [postPerPage, setPostPerPage] = useState(20);
 
 
     useEffect(() => {
         allCards(setCartas)
     }, [])
 
-    //const lastPostIndex = currentPage * postPerPage;
-    //const firtsPostIndex = lastPostIndex - postPerPage;
+    const lastPostIndex = currentPage * postPerPage;
+    const firtsPostIndex = lastPostIndex - postPerPage;
 
     return (
         <>
